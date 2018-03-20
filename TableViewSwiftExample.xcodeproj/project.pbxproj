@@ -13,6 +13,11 @@
 		165238282061352F00A90380 /* TableViewSwiftExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 165238262061352F00A90380 /* TableViewSwiftExample.xcdatamodeld */; };
 		1652382A2061352F00A90380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165238292061352F00A90380 /* Assets.xcassets */; };
 		1652382D2061352F00A90380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1652382B2061352F00A90380 /* LaunchScreen.storyboard */; };
+		1652383520613ECE00A90380 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652383420613ECE00A90380 /* LoginVC.swift */; };
+		16523837206142E700A90380 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16523836206142E700A90380 /* Validator.swift */; };
+		1652383A206147D500A90380 /* RandomStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16523838206147D500A90380 /* RandomStrings.swift */; };
+		1652383B206147D500A90380 /* RandomStrings+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16523839206147D500A90380 /* RandomStrings+CoreDataProperties.swift */; };
+		1652383D206156CF00A90380 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652383C206156CF00A90380 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		165238292061352F00A90380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1652382C2061352F00A90380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1652382E2061352F00A90380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1652383420613ECE00A90380 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		16523836206142E700A90380 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		16523838206147D500A90380 /* RandomStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStrings.swift; sourceTree = "<group>"; };
+		16523839206147D500A90380 /* RandomStrings+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RandomStrings+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1652383C206156CF00A90380 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +66,13 @@
 		1652381E2061352F00A90380 /* TableViewSwiftExample */ = {
 			isa = PBXGroup;
 			children = (
+				16523838206147D500A90380 /* RandomStrings.swift */,
+				16523839206147D500A90380 /* RandomStrings+CoreDataProperties.swift */,
+				16523836206142E700A90380 /* Validator.swift */,
 				1652381F2061352F00A90380 /* AppDelegate.swift */,
+				1652383420613ECE00A90380 /* LoginVC.swift */,
 				165238212061352F00A90380 /* ViewController.swift */,
+				1652383C206156CF00A90380 /* DetailVC.swift */,
 				165238232061352F00A90380 /* Main.storyboard */,
 				165238292061352F00A90380 /* Assets.xcassets */,
 				1652382B2061352F00A90380 /* LaunchScreen.storyboard */,
@@ -141,7 +156,12 @@
 			files = (
 				165238282061352F00A90380 /* TableViewSwiftExample.xcdatamodeld in Sources */,
 				165238222061352F00A90380 /* ViewController.swift in Sources */,
+				1652383B206147D500A90380 /* RandomStrings+CoreDataProperties.swift in Sources */,
+				16523837206142E700A90380 /* Validator.swift in Sources */,
+				1652383520613ECE00A90380 /* LoginVC.swift in Sources */,
+				1652383D206156CF00A90380 /* DetailVC.swift in Sources */,
 				165238202061352F00A90380 /* AppDelegate.swift in Sources */,
+				1652383A206147D500A90380 /* RandomStrings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
